@@ -59,10 +59,12 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="JobTitle" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Department.sql" />
     <Build Include="Tables\Employee.sql" />
+    <Build Include="JobTitle\CreateANewJobTitle.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="ServantHR.database.refactorlog" />

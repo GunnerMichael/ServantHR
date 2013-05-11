@@ -26,6 +26,7 @@ AS
             SELECT @ErrorMessage = ERROR_MESSAGE(),
                    @ErrorSeverity = ERROR_SEVERITY(),
                    @ErrorState = ERROR_STATE();
+
 			ROLLBACK TRANSACTION 
 
 			   RAISERROR (@ErrorMessage, -- Message text

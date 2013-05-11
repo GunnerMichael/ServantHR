@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ServantHR.database", "ServantHR.database\ServantHR.database.sqlproj", "{81B38BC6-EC20-42C5-B02D-C338382AF3FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServantHR.Database.Tests", "ServantHR.Database.Tests\ServantHR.Database.Tests.csproj", "{D731EEB4-3EF2-46FF-9A87-E50014DEA94B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{81B38BC6-EC20-42C5-B02D-C338382AF3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B38BC6-EC20-42C5-B02D-C338382AF3FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81B38BC6-EC20-42C5-B02D-C338382AF3FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D731EEB4-3EF2-46FF-9A87-E50014DEA94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D731EEB4-3EF2-46FF-9A87-E50014DEA94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D731EEB4-3EF2-46FF-9A87-E50014DEA94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D731EEB4-3EF2-46FF-9A87-E50014DEA94B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
